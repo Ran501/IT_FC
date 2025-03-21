@@ -1,0 +1,866 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    background: #e31b23;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    padding: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.it1{
+    border-radius: 40px;
+    box-shadow: 0 0 20px aqua, 0 0 50px aqua;
+}
+
+.it2{
+    border-radius: 40px;
+    box-shadow: 0 0 20px red, 0 0 50px red;
+}
+
+.enemy{
+    border-radius: 50px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-link {
+    font-size: 20px; /* Adjust font size */
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Default text color */
+    display: flex; /* Align icon and text horizontally */
+    align-items: center; /* Vertically center them */
+  }
+.icon-link i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.hero{
+    color: white;
+    margin: 100px;
+    padding-left: 60px;
+    align-items: center;
+    /* background-color: #ff5733; */
+    
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+
+.background { /* Your background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Use flexbox for centering content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+
+.background{
+    justify-content: center;
+    align-items: center;
+}
+   
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff5733;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* .about, .team {
+    text-align: center;
+    padding: 30px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+.p{
+    color:red;
+}
+.partner{
+    background-color:rgb(227,28,35);
+    display:block;
+    margin:0px;
+    padding:10px;
+}
+
+.partner-logo
+{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    font-family:"Brush Script MT",cursive;
+    height:20vh;
+}
+
+.sponsor{
+    margin: 0px;
+    padding:15px;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 20px #ff0000, 0 0 50px #ff0000;
+    overflow: hidden;
+}
+
+.img{
+    margin: 10px;
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    gap:100px;
+}
+.druk{
+    width: 100px;
+}
+
+.icon{
+    width:50px;
+}
+
+.it{
+    border-radius: 60px;
+    box-shadow: 0 0 20px aqua, 0 0 50px aqua;
+}
+
+.end{
+    margin:0px;
+    background-color: black;
+    gap:100px;
+    display:flex;
+    justify-content: space-between;
+    height: 170px;
+    padding:35px;
+}
+
+.iconlist{
+    font-size: 30px;
+    color: aqua;
+}
+
+.back-to-top{
+    color:aqua;
+    font-size: 1rem;
+}
+
+.icon{
+   gap:40px;
+   display:flex;
+   justify-content: center;
+}
+
+.words{
+    background-color: black;
+    color: aqua;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 30px;
+    padding: 15px;
+}
+
+.end1{
+    background-color: black;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    p{
+        color: aqua;
+    }
+}
+
+.fa-brands.fa-steam-symbol { 
+    color: aqua;
+    font-size: 60px; /* Use font-size instead of width */
+}
+
+.fa-brands.fa-d-and-d { 
+    color: aqua;
+    font-size: 60px; /* Use font-size instead of width */
+}
+
+.fa-brands.fa-playstation { 
+    color: aqua;
+    font-size: 60px; /* Use font-size instead of width */
+}
+
+.head{
+    margin:20px;
+    h1{
+        color:red;
+        border-bottom: solid red 2px;
+        width: 20%;
+    }
+}
+
+.ticket{
+    margin:30px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;   
+    height:160px; 
+    h1{
+        color:red;
+    };    
+    
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-top: 15px 0 15px 0;
+    padding: 15px;
+}
+
+/* button for the fixture */
+button{
+    margin:10px;
+    padding:10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size:16px;
+    background-color: #e31b23;
+    border: red;
+    color:white;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: darkblue;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 15px; /* Adds space between the cards */
+    padding: 15px; /* Optional: adds padding around the grid */
+}
+
+.card {
+    width: 100%; /* Make the card take the full width of the grid cell */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    padding: 15px;
+}
+
+.nav-link:focus {
+    border-bottom: 2px solid white; /* Add border when focused */
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid white;
+}
+
+/* Card Image */
+.card-img {
+    padding: 20px;
+    width: 360px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-track{
+    padding: 20px;
+    width: 450px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-shorts {
+    padding: 20px;
+    width: 350px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.card-mug {
+    padding: 20px 20px 20px 40px;
+    width: 300px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.card-case {
+    padding: 20px 20px 20px 60px;
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+}
+
+.player{
+    background-image: url(img/ran2.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.laxu{
+    background-image: url(img/laxu.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.titung{
+    background-image: url(img/titung.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.kt{
+    background-image: url(img/kt.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.vander{
+    background-image: url(img/thukten.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+
+
+.pasang{
+    background-image: url(img/pasang.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.tsherab{
+    background-image: url(img/tsherab.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.rigyel{
+    background-image: url(img/rigyel.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.choejur{
+    background-image: url(img/choejur.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+
+.lepcha{
+    background-image: url(img/lepcha.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.chimi{
+    background-image: url(img/chimi.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.sherab{
+    background-image: url(img/sherab.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.jigmet{
+    background-image: url(img/jigmet.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+
+
+.dorji{
+    background-image: url(img/dorji.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.damber{
+    background-image: url(img/damber.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.karma{
+    background-image: url(img/karma.jpg);
+    width:341px;
+    height:411px;
+    margin-bottom: 45px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px black, 0 0 50px black;
+    color:white;
+    h3{
+        color:white;
+    }
+    h1{
+        font-size: 80px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+
+.player:hover,.kt:hover,.titung:hover,.vander:hover,.laxu:hover,.rigyel:hover,.tsherab:hover,.choejur:hover,.lepcha:hover,.pasang:hover,chimi:hover,.sherab:hover,.karma:hover,.dorji:hover,.damber:hover,.chimi:hover,.jigmet:hover{
+    transform: scale(1.05);
+    h3{
+        color:red;
+    }
+    h1{
+        color:red;
+    }
+    span{
+        color:red;
+    }
+    
+}
+
+span{
+    color:black;
+    font-weight: bold;
+}
+
+.ran{
+    width:170px;
+    height:270px;
+}
+
+.word1{
+    font-size: 15px;
+    margin: 15px;
+    padding:15px;
+    height:300px;
+}
+
+/* Card Body */
+.card-body {
+    padding: 15px;
+}
+
+/* Card Title */
+.card-title {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.fsize{
+    font-size:1.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Card Text */
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.discount{
+    background-color: #544d4d;
+    padding:15px;
+    color:white;
+    align-items: center;
+    text-align: center;
+}
+
+.kit{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #E4D0B7
+    ;
+    color: black;
+    padding:15px;
+    
+    h3{
+        color:red;
+        font-size:1.5rem;
+        font-weight: bold;
+    };
+    p{
+        color:#e31b23;
+        font-weight:bold;
+    }
+}
+
+.most
+{
+    color:red;
+    margin: 25px;
+    padding:15px;
+}
+
+.card{
+    background-color: #ffffff;
+}
+
+.dis {
+    position: relative;
+    width: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.infobox{
+    margin: 30px;
+}
+
+.trophy{
+    background-color: #dbdada;
+    padding: 30px;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    h3{
+        font-size: 50px;
+    }
+}
+
+.fa-solid.fa-trophy{ 
+    color: black;
+    font-size: 150px; /* Use font-size instead of width */
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Stack navigation items vertically */
+        margin: 10px 0; /* Adjust margin for vertical spacing */
+        padding: 15px; /* Adjust padding */
+    }
+
+    .hero h2 {
+        font-size: 30px; /* Reduce font size for smaller screens */
+    }
+
+    .background-container {
+        width: 100%; /* Full width on mobile */
+        height: auto; /* Adjust height */
+    }
+
+    .card-container {
+        grid-template-columns: 1fr; /* Stack cards vertically */
+    }
+
+
+    .img {
+        grid-template-columns: 1fr; /* Stack images vertically */
+    }
+
+    .end {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+
+    .words {
+        grid-template-columns: 1fr; /* Stack words vertically */
+    }
+
+    .kit {
+        grid-template-columns: 1fr; /* Stack kit items vertically */
+    }
+
+    .ticket {
+        grid-template-columns: 1fr; /* Stack ticket items vertically */
+    }
+
+    .trophy {
+        flex-direction: column; /* Stack trophy items vertically */
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    nav ul li {
+        margin: 0 10px; /* Adjust margin for tablet */
+        padding: 20px; /* Adjust padding */
+    }
+
+    .hero h2 {
+        font-size: 35px; /* Adjust font size for tablet */
+    }
+
+    .card-container {
+        grid-template-columns: repeat(2, 1fr); /* Two columns on tablet */
+    }
+
+    .img {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for images */
+    }
+
+    .end {
+        flex-direction: row; /* Keep items in a row */
+    }
+
+    .words {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for words */
+    }
+
+    .kit {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for kit items */
+    }
+
+    .ticket {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for ticket items */
+    }
+
+    .trophy {
+        flex-direction: row; /* Keep trophy items in a row */
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    nav ul li {
+        margin: 0 15px; /* Maintain original margin */
+        padding: 30px; /* Maintain original padding */
+    }
+
+    .hero h2 {
+        font-size: 40px; /* Maintain original font size */
+    }
+
+    .card-container {
+        grid-template-columns: repeat(3, 1fr); /* Three columns on desktop */
+    }
+
+    .img {
+        grid-template-columns: repeat(3, 1fr); /* Three columns for images */
+    }
+
+    .end {
+        flex-direction: row; /* Keep items in a row */
+    }
+
+    .words {
+        grid-template-columns: repeat(4, 1fr); /* Four columns for words */
+    }
+
+    .kit {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for kit items */
+    }
+
+    .ticket {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for ticket items */
+    }
+
+    .trophy {
+        flex-direction: row; /* Keep trophy items in a row */
+    }
+}
